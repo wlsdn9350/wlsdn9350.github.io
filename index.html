@@ -23,23 +23,23 @@
                   Jinwoo Choi
                 </p>
                 <p>
-		I'm a research scientist at <a href="https://deepmind.google/">Google DeepMind</a> in San Francisco, where I lead a small team that mostly works on <a href="https://www.matthewtancik.com/nerf">NeRF</a>.
-		At Google I've worked on <a href="https://www.google.com/glass/start/">Glass</a>,  <a href="https://ai.googleblog.com/2014/04/lens-blur-in-new-google-camera-app.html">Lens Blur</a>, <a href="https://ai.googleblog.com/2014/10/hdr-low-light-and-high-dynamic-range.html">HDR+</a>, <a href="https://blog.google/products/google-ar-vr/introducing-next-generation-jump/">VR</a>, <a href="https://ai.googleblog.com/2017/10/portrait-mode-on-pixel-2-and-pixel-2-xl.html">Portrait Mode</a>, <a href="https://ai.googleblog.com/2020/12/portrait-light-enhancing-portrait.html">Portrait Light</a>, <a href="https://blog.google/products/maps/three-maps-updates-io-2022/">Maps</a>, and <a href="https://research.google/blog/bringing-3d-shoppable-products-online-with-generative-ai/">Shopping</a>.
-		I did my PhD at <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>, where I was advised by <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a>.
-		I've received the <a href="https://www.thecvf.com/?page_id=413#YRA">PAMI Young Researcher Award</a>.
+                  I'm a PhD student in the Department of Electrical and Computer Engineering at <a href="https://ece.snu.ac.kr/">Seoul National University</a>,
+                  where am advised by Prof. <a href="https://vi.snu.ac.kr:58240/main.php">Seung-Woo Seo</a>. I received my B.S. in Electronic Engineering from <a href="http://electronic.hanyang.ac.kr/eng/main/index.php">Hanyang University</a> in 2018.
+                  My research focuses on robotics and autonomous driving, with the goal of developing intelligent systems that operate in ways inspired by human reasoning. 
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:wlsdn9350@snu.ac.kr">Email</a> &nbsp;/&nbsp;
                   <!-- <a href="data/JonBarron-CV.pdf">CV</a> &nbsp;/&nbsp; -->
                   <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
-                  <a href="https://scholar.google.com/citations?user=N5IvKXQAAAAJ&hl=ko">Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://x.com/JWChoi_1103">Twitter</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/wlsdn9350/">Github</a>
+                  <a href="https://scholar.google.com/citations?user=N5IvKXQAAAAJ&hl=ko">Google Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://x.com/JWChoi_1103">Twitter</a>
+                  <!-- &nbsp;/&nbsp;
+                  <a href="https://github.com/wlsdn9350/">Github</a> -->
                 </p>
               </td>
               <td style="padding:2.5%;width:37%;max-width:37%">
                 <!-- <a href="images/JinwooChoi.png"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 10%; transition: transform 0.3s; cursor: pointer;" alt="profile photo" src="images/JinwooChoi.png" class="hoverZoomLink" onmouseover="this.style.transform='scale(1.5)'" onmouseout="this.style.transform='scale(1)'"></a> -->
-                <a href="images/JWC_zoom.png"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 10%;" alt="profile photo" src="images/JWC_zoom.png" class="hoverZoomLink"></a>
+                <a href="images/fixed_JWC.png"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 10%;" alt="profile photo" src="images/fixed_JWC.png" class="hoverZoomLink"></a>
               </td>
             </tr>
           </tbody></table>
@@ -47,16 +47,18 @@
               <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
-                <p>
-                  I'm interested in computer vision, deep learning, generative AI, and image processing. Most of my research is about inferring the physical world (shape, motion, color, light, etc) from images, usually with radiance fields. Some papers are <span class="highlight">highlighted</span>.
-                </p>
+                <!-- <p> -->
+                  <!-- I'm interested in computer vision, deep learning, generative AI, and image processing. Most of my research is about inferring the physical world (shape, motion, color, light, etc) from images, usually with radiance fields. Some papers are <span class="highlight">highlighted</span>. -->
+                   <!-- My research focuses on robotics and autonomous driving, with the goal of developing intelligent systems that operate in ways inspired by human reasoning.  -->
+                   <!-- I am especially interested in building algorithms that allow machines to plan, adapt, and make decisions more naturally, bringing them closer to how people think and act. -->
+                <!-- </p> -->
               </td>
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
-    <tr onmouseout="bolt3d_stop()" onmouseover="bolt3d_start()"  bgcolor="#ffffd0">
+    <!-- <tr onmouseout="bolt3d_stop()" onmouseover="bolt3d_start()"  bgcolor="#ffffd0">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
           <div class="two" id='bolt3d_image'><video  width=100% height=100% muted autoplay loop>
@@ -102,23 +104,72 @@
 		By training a latent diffusion model to directly output 3D Gaussians we enable fast (~6 seconds on a single GPU) feed-forward 3D scene generation.
         </p>
       </td>
-    </tr>
+    </tr> -->
+
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src="images/dcsl.png" alt="clean-usnob" width="300" style="height:auto;">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <!-- <a href="https://drive.google.com/file/d/1YvRx-4hrZoCk-nl6OgVJZlHAqOiN5hWq/view?usp=sharing"> -->
+                  <span class="papertitle">Dynamic Contrastive Skill Learning with State-Transition Based Skill Clustering and Dynamic Length Adjustment</span>
+                </a>
+                <br>
+                <strong>Jinwoo Choi</strong>, Seung-Woo Seo
+                <br>
+                <em>ICLR</em>, 2025
+                <br>
+                <!-- <a href="https://szymanowiczs.github.io/bolt3d">project page</a>
+                / -->
+                <a href="https://arxiv.org/pdf/2504.14805">arXiv</a>
+                <!-- <p>We use computer vision techniques to identify and remove diffraction spikes and reflection halos in the USNO-B Catalog.</p>
+                <p>In use at <a href="http://www.astrometry.net">Astrometry.net</a></p> -->
+                
+              </td>
+            </tr>
 
             <tr>
               <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src="images/clean_promo.jpg" alt="clean-usnob" width="160" height="160">
+                <img src="images/gin.png" alt="clean-usnob" width="300" style="height:auto;">
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://drive.google.com/file/d/1YvRx-4hrZoCk-nl6OgVJZlHAqOiN5hWq/view?usp=sharing">
-                  <span class="papertitle">Cleaning the USNO-B Catalog Through Automatic Detection of Optical Artifacts</span>
+                <!-- <a href="https://drive.google.com/file/d/1YvRx-4hrZoCk-nl6OgVJZlHAqOiN5hWq/view?usp=sharing"> -->
+                  <span class="papertitle">Gin: Graph-based interaction-aware constraint policy optimization for autonomous driving</span>
                 </a>
                 <br>
-                <strong>Jonathan T. Barron</strong>, <a href="http://stumm.ca/">Christopher Stumm</a>, <a href="http://cosmo.nyu.edu/hogg/">David W. Hogg</a>, <a href="http://www.astro.princeton.edu/~dstn/">Dustin Lang</a>, <a href="http://cs.nyu.edu/~roweis/">Sam Roweis</a>
+                Se-Wook Yoo, Chan Kim, <strong>Jinwoo Choi</strong>, Seong-Woo Kim, Seung-Woo Seo
                 <br>
-                <em>The Astronomical Journal</em>, 135, 2008
-                <p>We use computer vision techniques to identify and remove diffraction spikes and reflection halos in the USNO-B Catalog.</p>
-                <p>In use at <a href="http://www.astrometry.net">Astrometry.net</a></p>
+                <em>IEEE Robotics and Automation Letters 8 (2), 464-471</em>, 2022
+                <!-- <p>We use computer vision techniques to identify and remove diffraction spikes and reflection halos in the USNO-B Catalog.</p>
+                <p>In use at <a href="http://www.astrometry.net">Astrometry.net</a></p> -->
+                <br>
+                <!-- <a href="https://szymanowiczs.github.io/bolt3d">project page</a>
+                / -->
+                <a href="https://arxiv.org/pdf/2206.01488">arXiv</a>
               </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src="images/ELI.png" alt="clean-usnob" width="300" style="height:auto;">
+
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <!-- <a href="https://drive.google.com/file/d/1YvRx-4hrZoCk-nl6OgVJZlHAqOiN5hWq/view?usp=sharing"> -->
+                  <span class="papertitle">Ego‐lane index‐aware vehicular localisation using the DeepRoad Network for urban environments</span>
+                </a>
+                <br>
+                <!-- <strong>Jonathan T. Barron</strong>, <a href="http://stumm.ca/">Christopher Stumm</a>, <a href="http://cosmo.nyu.edu/hogg/">David W. Hogg</a>, <a href="http://www.astro.princeton.edu/~dstn/">Dustin Lang</a>, <a href="http://cs.nyu.edu/~roweis/">Sam Roweis</a> -->
+                 Soomok Lee, <strong>Jinwoo Choi</strong>, Seung‐Woo Seo
+                <br>
+                <em>IET Intelligent Transport Systems 15 (3), 371-386</em>, 2021
+                <!-- <p>We use computer vision techniques to identify and remove diffraction spikes and reflection halos in the USNO-B Catalog.</p>
+                <p>In use at <a href="http://www.astrometry.net">Astrometry.net</a></p> -->
+                <br>
+                <!-- <a href="https://szymanowiczs.github.io/bolt3d">project page</a>
+                / -->
+                <a href="https://ietresearch.onlinelibrary.wiley.com/doi/pdfdirect/10.1049/itr2.12031">paper</a>
+              </td>
+              
             </tr>
 
           </tbody></table>
@@ -127,7 +178,7 @@
 					<table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
             <tr>
               <td>
-                <h2>Miscellanea</h2>
+                <h2>Projects</h2>
               </td>
             </tr>
           </tbody></table>
@@ -135,80 +186,48 @@
             
            
             <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #fcb97d;">
-								 <h2>Micropapers</h2>
-								 </div>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src="images/vilab.png" alt="clean-usnob" width="300" style="height:auto;">
+
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://arxiv.org/abs/2112.11687">Squareplus: A Softplus-Like Algebraic Rectifier</a>
+                <!-- <a href="https://drive.google.com/file/d/1YvRx-4hrZoCk-nl6OgVJZlHAqOiN5hWq/view?usp=sharing"> -->
+                  <span class="papertitle">SNUVI: Autonomous Vehicle for Urban Driving
+</span>
+                </a>
                 <br>
-                <a href="https://arxiv.org/abs/2010.09714">A Convenient Generalization of Schlick's Bias and Gain Functions</a>
+                <!-- <strong>Jonathan T. Barron</strong>, <a href="http://stumm.ca/">Christopher Stumm</a>, <a href="http://cosmo.nyu.edu/hogg/">David W. Hogg</a>, <a href="http://www.astro.princeton.edu/~dstn/">Dustin Lang</a>, <a href="http://cs.nyu.edu/~roweis/">Sam Roweis</a> -->
+                 Role: Team leader, local path planning
                 <br>
-                <a href="https://arxiv.org/abs/1704.07483">Continuously Differentiable Exponential Linear Units</a>
-                <br>
-                <a href="https://jonbarron.info/data/cvpr2023_llm_workshop_annotated.pdf">Scholars & Big Models: How Can Academics Adapt?</a>
+                <p></p>
+        <p>
+		SNUVI is an autonomous vehicle developed for urban driving. It integrates precise perception, localization, and decision-making systems to handle pedestrians, traffic, and road rules, and was evaluated in diverse urban scenarios at K-City in South Korea.
+        </p>
               </td>
-            </tr>
-
-
-            <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #aaba9e;">
-								 <h2>Recorded Talks</h2>
-								 </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:center">
-                <a href="https://www.youtube.com/watch?v=hFlF33JZbA0">Radiance Fields and the Future of Generative Media, 2025</a><br>				  
-                <a href="https://www.youtube.com/watch?v=h9vq_65eDas">View Dependent Podcast, 2024</a><br>
-                <a href="https://www.youtube.com/watch?v=4tDhYsFuEqo">Bay Area Robotics Symposium, 2023
-</a><br>
-                <a href="https://youtu.be/TvWkwDYtBP4?t=7604">EGSR Keynote, 2021</a><br>
-				<a href="https://www.youtube.com/watch?v=nRyOzHpcr4Q">TUM AI Lecture Series, 2020</a><br>
-				<a href="https://www.youtube.com/watch?v=HfJpQCBTqZs">Vision & Graphics Seminar at MIT, 2020</a>
-              </td>
+              
             </tr>
 
             <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #c6b89e;">
-								 <h2>Academic Service</h2>
-								 </div>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src="images/visky_zoom.png" alt="clean-usnob" style="width:300px; height:300px; object-fit:cover;">
+
               </td>
-              <td style="padding:8px;width:80%;vertical-align:center">
-                <a href="https://iccv.thecvf.com/">Lead Area Chair, ICCV 2025</a>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <!-- <a href="https://drive.google.com/file/d/1YvRx-4hrZoCk-nl6OgVJZlHAqOiN5hWq/view?usp=sharing"> -->
+                  <span class="papertitle">VISKY: Mobile Robot for Autonomous Exploration in Unstructured Environments
+
+</span>
+                </a>
                 <br>
-                <a href="https://cvpr.thecvf.com/Conferences/2025/Organizers">Lead Area Chair, CVPR 2025</a>
+                <!-- <strong>Jonathan T. Barron</strong>, <a href="http://stumm.ca/">Christopher Stumm</a>, <a href="http://cosmo.nyu.edu/hogg/">David W. Hogg</a>, <a href="http://www.astro.princeton.edu/~dstn/">Dustin Lang</a>, <a href="http://cs.nyu.edu/~roweis/">Sam Roweis</a> -->
+                 Role: Team leader, global path planning
                 <br>
-                <a href="https://cvpr.thecvf.com/Conferences/2024/Organizers">Area Chair, CVPR 2024</a>
-                <br>
-                <a href="https://cvpr2023.thecvf.com/Conferences/2023/Organizers">Demo Chair, CVPR 2023</a>
-                <br>
-                <a href="https://cvpr2022.thecvf.com/area-chairs">Area Chair, CVPR 2022</a>
-                <br>
-                <a href="http://cvpr2021.thecvf.com/area-chairs">Area Chair & Award Committee Member, CVPR 2021</a>
-                <br>
-                <a href="http://cvpr2019.thecvf.com/area_chairs">Area Chair, CVPR 2019</a>
-                <br>
-                <a href="http://cvpr2018.thecvf.com/organizers/area_chairs">Area Chair, CVPR 2018</a>
+                <p></p>
+        <p>
+		VISKY is a mobile robot built for autonomous exploration in unknown, unstructured, and hazardous environments, relying on robust perception, accurate SLAM, and real-time path replanning.
+        </p>
               </td>
-            </tr>
-						
-						
-           
-            <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #edd892;">
-								 <h2>Teaching</h2>
-								 </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:center">
-                <a href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">Graduate Student Instructor, CS188 Spring 2011</a>
-                <br>
-                <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">Graduate Student Instructor, CS188 Fall 2010</a>
-                <br>
-                <a href="http://aima.cs.berkeley.edu/">Figures, "Artificial Intelligence: A Modern Approach", 3rd Edition</a>
-              </td>
+              
             </tr>
             
           </tbody></table>
@@ -217,7 +236,7 @@
               <td style="padding:0px">
                 <br>
                 <p style="text-align:right;font-size:small;">
-                  Feel free to steal this website's <a href="https://github.com/jonbarron/jonbarron_website">source code</a>. <strong>Do not</strong> scrape the HTML from this page itself, as it includes analytics tags that you do not want on your own website &mdash; use the github code instead. Also, consider using <a href="https://leonidk.com/">Leonid Keselman</a>'s <a href="https://github.com/leonidk/new_website">Jekyll fork</a> of this page.
+                  Website template is from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>.
                 </p>
               </td>
             </tr>
